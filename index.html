@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />    
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+  
+  <div class="container" ng-app="app">
+  <header ng-include="'templates/nav.html'"></header>
+  <ui-view></ui-view> 
+  <footer ng-include="'templates/footer.html'"></footer> 
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <script src="script.js"></script>
+  </body>
+</html>
